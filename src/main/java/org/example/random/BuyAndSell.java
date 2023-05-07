@@ -1,5 +1,7 @@
 package org.example.random;
 
+
+// Get max profit on stocks
 public class BuyAndSell {
 
     public void getBuyAndSell(int[] arr) {
