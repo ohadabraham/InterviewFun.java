@@ -2,6 +2,7 @@ package org.example.random;
 
 public class Add2LinkedListAsInt {
 
+// add 2 linked list
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         String l1AsStr="";
         while ( l1 != null ){
