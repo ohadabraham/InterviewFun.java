@@ -8,64 +8,6 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-
-    }
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /*
         // 1.0 Secret Santa - the sender can not be the receiver
         //runSecretSanta()
         // 1.1 create stack via LinkedList
@@ -394,4 +336,4 @@ public class Main {
 
 
 }
-        */
+        
