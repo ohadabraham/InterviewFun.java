@@ -7,6 +7,7 @@ import java.util.stream.Collectors;
 
 public class Add2UmsortedArrays {
 
+// get 2 combination of sum in 2 array
     public static Integer getCombinations(List <Integer> int1 , List <Integer> int2 , int sum ){
         HashMap <Integer, Integer > arr1InMap = new HashMap<>();
         int combination=0;
@@ -30,6 +31,8 @@ public class Add2UmsortedArrays {
 
     }
 
+// get 2 combination of sum in 1 array
+
     public static Integer get2SumCombinationIn1Arr(List <Integer> int1 , int sum ){
         HashMap <Integer,Integer> map = new HashMap<>();
         for (Integer num : int1) {
@@ -48,6 +51,8 @@ public class Add2UmsortedArrays {
         }
         return counter;
     }
+    // get 3 combination of sum in 2 array
+
     public static boolean get3SumCombinationIn1Arr(Integer [] int1  , int sum ){
         Arrays.sort(int1);
         int n = int1.length;
