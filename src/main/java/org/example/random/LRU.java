@@ -5,6 +5,7 @@ import java.util.LinkedList;
 
 public class LRU {
 
+// Implement LRU
     private int size;
     private HashMap < Integer , Integer > dataHashMap;
     private LinkedList <Integer> orderLinkedList;
